@@ -1,0 +1,92 @@
+.nav {
+  list-style-type: none;
+  margin: auto;
+  padding: 0;
+  background-color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.nav li {
+  float: left;
+}
+.nav a{
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Alkalami', serif;
+  font-size: 20px;
+}
+li a:hover {
+  background-color: darkgray;
+}
+.active {
+  background-color: darkgray;
+}
+.cookingimg {
+  width: 20%;
+  margin-bottom: 0.5em;
+}
+.yogaimg {
+  width: 250px;
+  margin-bottom: 1em;
+}
+#yejin img{
+  width: 130px;
+  border-radius: 15%
+}
+#yejin {
+  float: right;
+  margin-right: 25px;
+  margin-top: 50px;
+}
+iframe{
+  margin-top: 20px;
+}
+.maincategory{
+  text-shadow: 2px 2px #AF9B60;
+  font-size: 1.4em;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+  margin-top: 0.9em;
+}
+.maincategory_yoga{
+  text-shadow: 2px 2px #F8F8FF;
+  font-size: 2em;
+  margin-bottom: 0.5em;
+  margin-top: 0.5em;
+}
+.maincategory_cooking{
+  text-shadow: 2px 2px #FAF0DD;
+  font-size: 2em;
+  margin-bottom: 0.5em;
+  margin-top: 0.5em;
+}
+body {
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-bottom: 1em;
+}
+#body_cooking{
+  background-color: #BAB86C;
+  font-family: 'Lobster', cursive;
+  font-size: 1.5em;
+}
+#body_yoga {
+  background-color: #D5D6EA;
+  font-family: 'Lobster Two', cursive;
+  font-size: 1.5em;
+}
+#body_index {
+  background-color: #FFF380;
+  font-family: 'Times New Roman', serif;
+  font-size: 1.3em;
+}
+h3{
+  margin-bottom: 0.7em;
+}
+p{
+  margin-bottom: 1em;
+}
