@@ -92,20 +92,17 @@ p{
 }
 
 @media only screen and (min-width: 600px) {
-  .img-container img {
-    width: 150px;
-    border-radius: 75px;
+  #yejin img{
+    width: 80px;
+    border-radius: 15%
   }
-
-  .card-glassmorphism {
-    border-radius: 15px;
+  #yejin {
+    float: right;
+    margin-right: 8px;
   }
-
-  .card-glassmorphism:hover {
-    transform: scale(1.02);
-    backface-visibility: hidden;
+  #body_index {
+    font-size: 0.8em;
   }
-
   #main-fluid {
     width: 95%;
   }
@@ -113,23 +110,16 @@ p{
 }
 
 @media only screen and (min-width: 856px) {
-  .grid-8-4 {
-    grid-template-columns: 200px auto;
+  #yejin img{
+    width: 100px;
+    border-radius: 15%
+  }
+  #yejin {
+    float: right;
+    margin-right: 12px;
+  }
+  #body_index {
+    font-size: 1.0em;
   }
 
-  .img-container img {
-    width: 150px;
-    border-radius: 75px;
-  }
-
-  .contact-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    height: 75%;
-  }
-
-  .contact-container div {
-    width: fit-content;
-  }
 }
