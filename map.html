@@ -3,15 +3,6 @@
 <head>
   <meta charset="utf-8">
   <title> Where I from </title>
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
-<!-- playground-hide -->
-<script>
-  const process = { env: {} };
-  process.env.GOOGLE_MAPS_API_KEY =
-    "AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg";
-</script>
-<!-- playground-hide-end -->
-
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Alkalami&display=swap" rel="stylesheet">
@@ -28,11 +19,7 @@
         <li><a class="active" href="map.html">map</a></li>
       </ul>
       <h1 class="maincategory"> Where am I from? </h1>
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAK0Kpd-1IPPqES4AYV6CZsc1qFl6ghies&callback=initMap" async defer></script>
       <div id="map"></div>
-      <script
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly"
-        defer
-      ></script>
-
 </body>
 </html>
