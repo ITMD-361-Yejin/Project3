@@ -91,9 +91,9 @@ p{
   margin-bottom: 1em;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 150px) {
   #yejin img{
-    width: 80px;
+    width: 100px;
     border-radius: 15%
   }
   #yejin {
@@ -101,17 +101,22 @@ p{
     margin-right: 8px;
   }
   #body_index {
-    font-size: 0.8em;
+    font-size: 1.1em;
   }
-  #main-fluid {
-    width: 95%;
+  .nav a{
+    color: black;
+    padding: 9px 11px;
+    font-size: 17px;
   }
-
+  .maincategory{
+    margin-bottom: 0.2em;
+    margin-top: 0.6em;
+  }
 }
 
-@media only screen and (min-width: 856px) {
+@media only screen and (min-width: 600px) {
   #yejin img{
-    width: 100px;
+    width: 120px;
     border-radius: 15%
   }
   #yejin {
@@ -119,7 +124,15 @@ p{
     margin-right: 12px;
   }
   #body_index {
-    font-size: 1.0em;
+    font-size: 1.2em;
   }
-
+  .nav a{
+    color: black;
+    padding: 12px 14px;
+    font-size: 20px;
+  }
+  .maincategory{
+    margin-bottom: 0.4em;
+    margin-top: 0.8em;
+  }
 }
