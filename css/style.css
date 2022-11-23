@@ -90,3 +90,46 @@ h3{
 p{
   margin-bottom: 1em;
 }
+
+@media only screen and (min-width: 600px) {
+  .img-container img {
+    width: 150px;
+    border-radius: 75px;
+  }
+
+  .card-glassmorphism {
+    border-radius: 15px;
+  }
+
+  .card-glassmorphism:hover {
+    transform: scale(1.02);
+    backface-visibility: hidden;
+  }
+
+  #main-fluid {
+    width: 95%;
+  }
+
+}
+
+@media only screen and (min-width: 856px) {
+  .grid-8-4 {
+    grid-template-columns: 200px auto;
+  }
+
+  .img-container img {
+    width: 150px;
+    border-radius: 75px;
+  }
+
+  .contact-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 75%;
+  }
+
+  .contact-container div {
+    width: fit-content;
+  }
+}
